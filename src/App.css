@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #007BFF;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.link-button {
+  text-decoration: none;
+  color: white;
+}
+
+/* App Styles */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Public Component Styles */
+.public-component {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+/* Protected Component Styles */
+.protected-component {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.protected-component p {
+  margin: 10px 0;
+}
+
+.protected-component button {
+  background-color: #FF5733;
+}
+
+.protected-component button:hover {
+  background-color: #cc4628;
+}
+
+/* Container for Home Buttons */
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Link Button Styles */
+.link-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
+}
+/* Centering Utility Class */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+
+/* Global App Styles */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

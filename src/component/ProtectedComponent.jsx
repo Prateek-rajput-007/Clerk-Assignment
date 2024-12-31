@@ -1,6 +1,6 @@
 import React from 'react';
 import { useUser, useAuth } from '@clerk/clerk-react';
-import './App.css';
+import '../App.css';
 
 const ProtectedComponent = () => {
   const { user } = useUser();

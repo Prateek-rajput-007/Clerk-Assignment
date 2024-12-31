@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes, Link, Navigate } from 'react-router-dom';
 import { SignIn, SignUp, useAuth } from '@clerk/clerk-react';
-import ProtectedComponent from './ProtectedComponent';
-import PublicComponent from './PublicComponent';
+import ProtectedComponent from './component/ProtectedComponent';
+import PublicComponent from './component/PublicComponent';
 import './App.css';
 
 const App = () => {
